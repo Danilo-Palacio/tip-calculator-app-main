@@ -1,8 +1,8 @@
 import './BtnSelectTip.css'
 
-const BtnSelectTip = () => {
+const BtnSelectTip = (props) => {
     return(
-        <button>5%</button>
+        <button>{props.value}</button>
     )
 
 }

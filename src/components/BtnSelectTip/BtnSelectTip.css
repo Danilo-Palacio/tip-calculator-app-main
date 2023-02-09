@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+
 button{
-    background-color: aqua;
-    width: 140px;
-    height: 40px;
+    background-color: var(--Verydarkcyan);
+    color: var(--White);
+    width: 146px;
+    height: 48px;
     border: none;
     border-radius: 5px;
 
-    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+button:active{
+    background-color: var(--Strongcyan);
+    color: var(--Verydarkcyan);
+}
+:root{
+    --Strongcyan: #26bfab;
+
+    --Verydarkcyan: #00494d;
+    --Darkgrayishcyan: #5e7a7d;
+    --Grayishcyan: #7f9c9f;
+    --Lightgrayishcyan: #c5e4e7;
+    --Verylightgrayishcyan: #f4fafa;
+    --White: #ffffff;
 }

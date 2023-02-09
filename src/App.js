@@ -1,11 +1,13 @@
-import BtnSelectTip from './components/BtnSelectTip';
+
 import './App.css';
+import Logo from './components/Logo';
+import SelectTip from './components/SelectTip';
 
 function App() {
   return (
     <div className="App">
-    <BtnSelectTip/>
- 
+        <Logo/>
+        <SelectTip />
     </div>
   );
 }
