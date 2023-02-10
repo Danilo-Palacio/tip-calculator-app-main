@@ -1,0 +1,53 @@
+.bill{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 19.5rem;
+    height: 4.875rem;
+    gap: 0px;
+
+    margin-bottom: 2rem;
+
+    
+
+}
+.bill > label{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 6px;
+}
+
+.bill > .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: 19.5rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+}
+.input >span{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Space Mono' sans-serif;
+    line-height: 45px;
+    height: 100%;
+    width: 10%;
+
+
+    margin: 0px;
+    padding: 0px;
+}
+.input > input{
+    border: none;
+    height: 100%;
+    width: 85%;
+
+    font-size: 24px;
+    text-align: end;
+    color: #00494D;
+
+}

@@ -1,14 +1,17 @@
-import 'Bill.css'
+import './Bill.css'
 
-const Bill = () => {
+const Bill = (props) => {
+    const colorBgInput = { backgroundColor:props.color.veryLightGrayishCyan}
+    const colorFont = {color:props.color.darkGrayishCyan}
+
     return (
 
-        <div>
-            <label for="input">
-            Bill
-            </label>
-            
-            <input type="number" name="number-bill" id="number-bill"/>
+        <div className='bill'>
+            <label for="input" style={colorFont}> Bill </label>        
+            <div className='input'  style={colorBgInput}>
+                <span style={colorFont}>$</span>
+                <input type="number" name="number-bill" id="number-bill"  style={colorBgInput}/>
+            </div>
         </div>
     )
 
