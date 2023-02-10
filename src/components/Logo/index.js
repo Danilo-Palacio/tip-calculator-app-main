@@ -2,12 +2,12 @@ import './Logo.css'
 
 const Logo = () =>{
     return(
-        <div className='logo'>
-            <img
-            src="./SPLITTER.png"
-            alt="logo"
-            />
-        </div>
+            <header className='logo'>
+                <img 
+                src="/images/logo.svg"
+                alt="logo"
+                />
+            </header>
     )
 }
 
